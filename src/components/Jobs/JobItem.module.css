@@ -1,0 +1,32 @@
+.progressBar {
+  grid-area: progress;
+  inline-size: 100%;
+  vertical-align: middle;
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 1vmin;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "id id id"
+    "bigint bigint bigint"
+    "progress progress progress"
+    "equation equation equation";
+  padding: 2vmin;
+}
+
+.bigint {
+  grid-area: bigint;
+  overflow-x: scroll;
+}
+
+.id {
+  grid-area: id;
+}
+
+.equation {
+  grid-area: equation;
+  overflow-x: scroll;
+}
