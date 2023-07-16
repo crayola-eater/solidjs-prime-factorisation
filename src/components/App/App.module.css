@@ -1,0 +1,12 @@
+.main {
+  background-color: var(--dark-purple);
+  color: var(--white);
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  padding: 2vmin;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 340px);
+  gap: 3vmin;
+  justify-content: space-evenly;
+}
